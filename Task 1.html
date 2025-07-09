@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 35%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        tr{
+            text-align: center;
+        }
+        .table.title {
+            font-weight: bold;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: #333;
+        }
+        tyle>
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #0a7a7a;
+        }
+        input[type="submit"] {
+            background-color: #2b8ef1;
+            color: #f8f8fa;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0673a1;
+        }
+        </style>
+    </head>   
+    <body>  
+        <ol>
+            <li>Gain practical experience in my feild of study.</li>
+            <li>Build a professional network within the industry</li>
+            <li>Enhance my CV with relevant skills and accomplishments.</li>
+            <li>Receive mentorship and constructive feedback</li>
+            <li>Develop technical and soft skills relevant to my career goals.</li>
+            <li>Secure potential job opportunities or future collaborations.</li>
+        </ol>
+        <h2>MY COURSES</h2>
+        <table>
+            <tr>
+                <th>Course Name</th>
+                <th>Course Code</th>
+                <th>Lecturer Name</th>
+                <th>Credit Hours</th>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>BGEC301</td>
+                <td>Mr. Godwill Argodo</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Database Management</td>
+                <td>BSIT401</td>
+                <td>Ms. Barbara Mensah</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Information Systems</td>
+                <td>BGEC116</td>
+                <td>Ms. Ivonne Nketia</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>French</td>
+                <td>BGEC101</td>
+                <td>Rashid Oman</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <div class="container">
+            <h1>Welcome to Our Sign Up Page</h1>
+        <form action="/submit" method="post">
+            <label for="Full Name">Full Name:</label><br>
+            <input type="text" id="username" placeholder="Sarah Adjei" name="username" required autofocus><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Sarah365@gmail.com"  required><br><br>
+
+            <label for="Number">Number:</label><br>
+            <input type="tel" id="number" name="number" required><br><br>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
